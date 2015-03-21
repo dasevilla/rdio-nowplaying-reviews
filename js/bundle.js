@@ -28962,7 +28962,8 @@ module.exports = React.createClass({displayName: "exports",
         React.createElement(BootStrapColumn, {className: "col-md-12"}, 
           React.createElement("p", null, 
             React.createElement("small", null, 
-              "Built at ", React.createElement("a", {href: "sxsw.com/music/hackathon", target: "_blank"}, "2015 SXSW Music Hackathon Championship"), "."
+              "Built at ", React.createElement("a", {href: "sxsw.com/music/hackathon", target: "_blank"}, "2015 SXSW Music Hackathon Championship"), ". Powered by ", React.createElement("a", {href: "https://www.rdio.com/developers/", target: "_blank"}, "Rdio API"), " and ", React.createElement("a", {href: "https://music-api.musikki.com/", target: "_blank"}, "Musikki API"), "." + ' ' +
+              "View source on ", React.createElement("a", {href: "https://github.com/dasevilla/rdio-nowplaying-reviews", target: "_blank"}, "GitHub"), "."
             )
           )
         )
